@@ -697,7 +697,8 @@ local function process_key_binding(oneshot)
             clear_screen()
             remove_page_bindings()
             if recorder then
-                mp.unregister_event(recorder)
+                -- mp.unregister_event(recorder)
+                mp.unobserve_property(recorder)
                 recorder = nil
             end
         end
@@ -705,7 +706,8 @@ local function process_key_binding(oneshot)
     else
         if not oneshot and (o.plot_vsync_jitter or o.plot_vsync_ratio) then
             recorder = record_data(o.skip_frames)
-            mp.register_event("tick", recorder)
+            -- mp.register_event("tick", recorder)
+            mp.observe_property("TICK", int, recorder)
         end
         display_timer:kill()
         display_timer.oneshot = oneshot
