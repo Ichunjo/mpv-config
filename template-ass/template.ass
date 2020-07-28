@@ -15,8 +15,9 @@ Last Style Storage: Default
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Libre Varklin,22,&H00FFFFFF,&H000000FF,&H002C2C2C,&H00000000,-1,0,0,0,100,100,0,0,1,1.16667,0,2,0,0,25,1
+Style: Default100G,Libre Varklin,22,&H00FFFFFF,&H000000FF,&H002C2C2C,&H00000000,-1,0,0,0,100,100,0,0,1,1.16667,0,2,0,100,25,1
 Style: Italique,Libre Varklin,22,&H00FFFFFF,&H000000FF,&H002C2C2C,&H00000000,-1,-1,0,0,100,100,0,0,1,1.16667,0,2,0,0,25,1
 Style: TiretsDefault,Libre Varklin,22,&H00FFFFFF,&H000000FF,&H002C2C2C,&H00000000,-1,0,0,0,100,100,0,0,1,1.16667,0,1,0,0,25,1
 Style: TiretsItalique,Libre Varklin,22,&H00FFFFFF,&H000000FF,&H002C2C2C,&H00000000,-1,-1,0,0,100,100,0,0,1,1.16667,0,1,0,0,25,1
 Style: DefaultUP,Libre Varklin,22,&H00FFFFFF,&H000000FF,&H002C2C2C,&H00000000,-1,0,0,0,100,100,0,0,1,1.16667,0,8,0,0,25,1
-Style: ItaliqueUP,Libre Varklin,22,&H00FFFFFF,&H000000FF,&H002C2C2C,&H00000000,-1,-1,0,0,100,100,0,0,1,1.16667,0,8,0,0,25,1
+Style: DefaultUp,Libre Varklin,22,&H00FFFFFF,&H000000FF,&H002C2C2C,&H00000000,-1,0,0,0,100,100,0,0,1,1.16667,0,8,0,0,25,1
